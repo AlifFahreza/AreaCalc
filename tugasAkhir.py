@@ -1,0 +1,5 @@
+a = input('Batas Kiri Daerah a = ')
+b = input('Batas Kanan Daerah b = ')
+m = input('Jumlah Pias yang dibuat m = ')
+h = ((int(b)-int(a))/int(m))
+print('Lebar Setiap Pias adalah h = %8.5f\n',h)
